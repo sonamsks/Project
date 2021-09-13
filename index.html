@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKS IMAGES</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+
+        }
+        body{
+            width: 100%;
+            height: 100%;
+            background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url(img/pic.jpg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: sans-serif;
+        }
+         .navbar{
+             width: 100%;
+             height: 15vh; 
+             background-color:rgba(0,0,0,0.2);
+             color: white;
+             display: flex;
+             justify-content: space-between;
+             align-items:center;
+             text-transform: uppercase;
+            
+         }
+
+         .navbar .logo{
+             width: 25%;
+             text-align:center;
+             
+         }
+         .navbar ul{
+             width: 40%;
+             display: flex;
+             justify-content: space-around;
+            }
+         .navbar ul a{
+             width: 25%;
+             text-decoration: none;
+             color: white;
+             font-weight: bold;
+            
+         }
+         .navbar ul a:first-child{
+             color: #00b894;
+         }
+         main{
+             width: 100%;
+             height: 85vh;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             text-align: center;     
+            }
+         section{
+
+         }
+         section h3{
+             font-size: 35px;
+             font-weight: 200;
+             letter-spacing: 3px;
+             text-shadow: 1px 1px 2px black;
+
+         }
+         section h1{
+             margin: 20px 0 10px 0;
+                 font-size: 45px;
+                 font-weight: 700;
+                 text-shadow: 2px 1px 5px black;
+                 text-transform: uppercase;
+         }
+         section p{
+             font-size: 25px;
+             word-spacing: 2px;
+             margin-bottom: 25px;
+             text-shadow: 1px 1px 1px black;
+         }
+         section a{
+            padding: 12px 30px;
+            border-radius: 4px;
+            outline: none;
+            text-transform: uppercase;
+            font-size: 13px;
+            font-weight: 500;
+            text-decoration: none;
+            letter-spacing: 1px;
+            transition: all .5s ease;
+         }
+         section .btnone{
+             background: #fff;
+             color:#000;
+         }
+         .btnone:hover{
+             background: #00b894;
+             color: white;
+         }
+         section .btntwo{
+             background: #00b894;
+             color: white;
+         }
+         .btntwo:hover{
+            background: #fff;
+             color:#000;
+         }
+
+         .change_content::after{
+             content: '';
+             animation: changetext 10s infinite linear;
+             color: #00b894;
+
+         }
+         @keyframes changetext{
+                  0%{ content:"Agra"; }
+                  20%{ content:"Dehradun"; }
+                  35%{ content:"Jharkhand"; }
+                  60%{ content:"Darjeeling"; }
+                  80%{ content: "Mumbai"; }
+                  100%{ content: "Kerla" }
+
+         }
+
+    </style>
+</head>
+<body>
+    <header>
+
+       <nav class="navbar">
+           <div class="Logo"> <h1 class="animate__animated infinite animate__heartBeat ">SONAM SINGH</h1></div>
+            <ul>
+                <a href="a">Home</a>
+                <a href="a">Gallary</a>
+                <a href="a">About</a>
+                <a href="a">Contact</a>
+            </ul>
+
+        </nav>
+                <main>
+                    <section>
+                        <h3>Welcome To India</h3>
+                        <h1>DO COME AND VISIT <span class="change_content"> </span></h1>
+                        <p>"India once is not enough"</p>
+                        <a href="a" class="btnone">Learn more</a>
+                        <a href="a" class="btntwo">signup</a>
+                    </section>
+                </main>
+
+                <div class="bubbles">
+                    
+                    
+                </div>
+    </header>
+
+
+
+    <!-- <p>I don't know that how to express that feeling of seeing sunrise/sunset. But really I feel so happy 
+         whenever I saw a sunrise/sunset. There is a charm and a peaceful smile on my face and it just happens. 
+         At that time I just wanted to stop the time and capture those beautiful moments. Maybe I don't know 
+         the meaning of enjoyment but I think for me seeing this sunrise/sunset is the real sense of the enjoyment.
+          And off course it's a part of nature also & nature never disappoints you.</p>
+
+    <p>Every sunset I watch, I feel that maybe it’s God’s way of telling me I did a good job for the day, and 
+        to take a breath and let him take all my negative energy, worries, and stresses away.
+        Sunsets are one of the few things in life that is guaranteed and subconsciously the certainty and 
+        guarantee is extremely soothing to the soul.
+        No matter how bad a day is or how terrible things feel, the sun is guaranteed to set and rise and the 
+        certainty that all chapters close and a new day will begin soothes your soul.
+        I watch as many as possible.</p> -->
+    
+</body>
+</html>
